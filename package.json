@@ -1,0 +1,22 @@
+{
+  "name": "create-eth-with-contract",
+  "version": "1.0.0",
+  "description": "CLI tool to create a Scaffold-ETH 2 project with a custom Solidity contract",
+  "main": "index.js",
+  "bin": {
+    "create-eth-with-contract": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["ethereum", "scaffold-eth", "solidity", "cli"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^9.5.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "type": "module"
+}
