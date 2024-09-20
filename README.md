@@ -54,8 +54,30 @@ This will use your local version of the tool, allowing you to test your changes.
 
 To unlink after testing, run `npm unlink` in the project directory.
 
+## Quick Start
+
+You can run this tool directly using npx and GitHub:
+
+npx github:yourusername/create-eth-with-contract -code <base64_encoded_contract>
+
+Replace <base64_encoded_contract> with your base64 encoded Solidity contract.
+
+Examples:
+
+1. Hello World Contract:
+
+npx github:portdeveloper/create-eth-with-contract -code cHJhZ21hIHNvbGlkaXR5IF4wLjguMDsKCmNvbnRyYWN0IEhlbGxvV29ybGQgewogICAgc3RyaW5nIHB1YmxpYyBncmVldGluZyA9ICJIZWxsbywgV29ybGQhIjsKCiAgICBmdW5jdGlvbiBzZXRHcmVldGluZyhzdHJpbmcgbWVtb3J5IF9ncmVldGluZykgcHVibGljIHsKICAgICAgICBncmVldGluZyA9IF9ncmVldGluZzsKICAgIH0KfQ==
+
+This will create a new Scaffold-ETH 2 project with a simple "Hello World" contract.
+
+2. Token Contract:
+
+npx github:portdeveloper/create-eth-with-contract -code cHJhZ21hIHNvbGlkaXR5IF4wLjguMDsKCmltcG9ydCAiQG9wZW56ZXBwZWxpbi9jb250cmFjdHMvdG9rZW4vRVJDMjAvRVJDMjAuNzc3Ijc7Cgpjb250cmFjdCBNeVRva2VuIGlzIEVSQzIwIHsKICAgIGNvbnN0cnVjdG9yKCkgRVJDMjAoIk15IFRva2VuIiwgIk1USyIpIHsKICAgICAgICBfbWludChtc2cuc2VuZGVyLCAxMDAwMDAwICogMTAgKiogZGVjaW1hbHMoKSk7CiAgICB9Cn0=
+
+This will create a new Scaffold-ETH 2 project with a basic ERC20 token contract.
+
 ## Scaffold-ETH 2 Resources
 
-- [Scaffold-ETH 2 Documentation](https://docs.scaffoldeth.io/)
-- [Scaffold-ETH 2 GitHub Repository](https://github.com/scaffold-eth/scaffold-eth-2)
-- [Scaffold-ETH 2 Telegram Support Chat](https://t.me/joinchat/KByvmRe5wkR-8F_zz6AjpA)
+- Scaffold-ETH 2 Documentation: https://docs.scaffoldeth.io/
+- Scaffold-ETH 2 GitHub Repository: https://github.com/scaffold-eth/scaffold-eth-2
+- Scaffold-ETH 2 Telegram Support Chat: https://t.me/joinchat/KByvmRe5wkR-8F_zz6AjpA
